@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* === navbar === */
+.bg-light {
+    width: 100%;
+}
+
+.navbar-light .navbar-brand {
+    margin-right: 40px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    transition: .5s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orangered;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.contact:hover {
+    color: orangered;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: black;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+.btn {
+    background: orangered;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background: orangered;
+    color: black;
+}
+
+.navbar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: orangered;
+}
+
+
+/* === home === */
+.home {
+    color: white;
+    height: 85vh;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.home-content h1 {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Pangolin', cursive; */
+    font-size: 3.5rem;
+    color: black;
+}
+
+.home-content p {
+    width: 41%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pangolin', cursive;
+}
+
+span {
+    color: orangered;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pangolin', cursive;
+}
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.home-btn input {
+    padding: 10px;
+    width: 30vw;
+    /* border-radius: 15px; */
+    margin-right: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.home button {
+    padding: 10px 20px;
+    background: orangered;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.home img {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .7;
+}
+
+/* === slide === */
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    /* height: 100vh; */
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slide-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 60%;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px 10px;
+    height: 80%;
+}
+
+.image {
+    text-align: center;
+    cursor: pointer;
+}
+
+.image p {
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.image p:hover {
+    color: orangered;
+}
+
+.slide-5 img {
+    width: 65%;
+}
+
+.slide-6 img {
+    padding-right: 40PX;
+}
+
+.image a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* === footer === */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-content a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
